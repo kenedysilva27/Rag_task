@@ -17,8 +17,12 @@ O sistema deve ser uma **aplicação Python modular**.
 
 Um módulo que:
 - Carrega os PDFs da pasta `base_conhecimento/`
-- Associa a cada trecho a informação de qual documento ele veio e qual é a sua categoria (`comercial`, `rh` ou `tecnico`)
+- Enriquece cada chunk com metadados que serão persistidos no vector store:
+  - `source`: nome do arquivo de origem (ex: `produtos.pdf`)
+  - `categoria`: domínio do documento — `comercial`, `rh` ou `tecnico`
 - Divide o conteúdo em partes menores prontas para indexação
+
+Esses metadados ficam gravados junto ao vetor no Chroma e podem ser usados pelo retriever para filtrar por categoria durante a busca.
 
 ---
 
@@ -80,7 +84,7 @@ Um arquivo de entrada que:
 
 | Módulo | O que será verificado |
 |--------|----------------------|
-| `ingest.py` | PDFs carregados; metadados de categoria presentes em todos os chunks |
+| `ingest.py` | PDFs carregados; metadados `source` e `categoria` presentes e persistidos no vector store para todos os chunks |
 | `retriever.py` | Busca híbrida funcionando; reranking aplicado; índice persistido e reutilizado |
 | `chain.py` | Perguntas de acompanhamento resolvidas corretamente; respostas só com base no contexto |
 | `api.py` | Endpoints funcionando; histórico separado por `session_id` |

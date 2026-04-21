@@ -1,21 +1,31 @@
 from langchain_community.document_loaders import PyPDFDirectoryLoader
-from langchain_chroma import Chroma
+import os
+
+CATEGORY_MAP = {
+    "produtos": "comercial",
+    "politicas_rh": "rh",
+    "documentacao_api": "tecnico",
+}
 
 class Ingest():
-    """Módulo para buscar os documentos para Rag,aplicar embeddings e colocar no vectordb"""
+    """Classe que busca os documentos para RAG e enriquece com metadados"""
 
-    def __init__(self,loader,docs):
-        self.loader = loader
-        self.docs = docs
+    def __init__(self):
 
-    def load_rag_sources(self,past):
-        """carrega arquivos dentro de uma pasta especifica"""
-        self.loader = PyPDFDirectoryLoader(past)
+        self.docs = None
 
-        self.docs = self.loader.load()
+    def load_rag_sources(self, path):
+        """Carrega os PDFs e adiciona metadados de source e categoria em cada chunk"""
+
+        loader = PyPDFDirectoryLoader(path)
+        self.docs = loader.load()
+
+        for doc in self.docs:
+            filename = os.path.basename(doc.metadata.get("source", ""))
+            name_without_ext = os.path.splitext(filename)[0]
+            doc.metadata["source"] = filename
+            doc.metadata["categoria"] = CATEGORY_MAP.get(name_without_ext, "desconhecido")
 
         return self.docs
-    
-    def embedding_sources(self):
-        """transforma o conteúdo textual em vetores com openia embeddigns"""
-        self.vectorstore = Chroma()
+
+
