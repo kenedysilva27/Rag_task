@@ -1,0 +1,302 @@
+[
+  {
+    "pergunta": "Quais são os três produtos da DataFlow Analytics?",
+    "resposta": "Os três produtos são: DataFlow Insights (plataforma de BI), DataFlow Pipeline (ferramenta de ETL) e DataFlow Warehouse (data warehouse na nuvem).",
+    "tipo": "factual",
+    "documento_fonte": "produtos"
+  },
+  {
+    "pergunta": "Qual o preço do plano Professional?",
+    "resposta": "O plano Professional custa R$3.500/mês e inclui até 100 usuários, dashboards ilimitados e 10 pipelines simultâneos.",
+    "tipo": "factual",
+    "documento_fonte": "produtos"
+  },
+  {
+    "pergunta": "Qual a diferença de preço entre o plano Starter e o Professional?",
+    "resposta": "O plano Starter custa R$1.200/mês e o Professional R$3.500/mês, uma diferença de R$2.300/mês.",
+    "tipo": "comparativo",
+    "documento_fonte": "produtos"
+  },
+  {
+    "pergunta": "Quanto tempo a DataFlow retém os dados após o cancelamento?",
+    "resposta": "A DataFlow retém os dados por 60 dias após o cancelamento. A exportação é gratuita durante esse período.",
+    "tipo": "factual",
+    "documento_fonte": "produtos"
+  },
+  {
+    "pergunta": "Qual o código do produto DataFlow Pipeline?",
+    "resposta": "O código do DataFlow Pipeline é DF-PIPE-2024, atualmente na versão 3.8.2.",
+    "tipo": "factual",
+    "documento_fonte": "produtos"
+  },
+  {
+    "pergunta": "A DataFlow tem parceria com a Salesforce?",
+    "resposta": "Sim, a DataFlow tem parceria nível Gold com a Salesforce, oferecendo integração nativa bidirecional.",
+    "tipo": "factual",
+    "documento_fonte": "produtos"
+  },
+  {
+    "pergunta": "Quantos clientes a DataFlow Analytics atende?",
+    "resposta": "A DataFlow Analytics atende mais de 800 empresas clientes em toda América Latina.",
+    "tipo": "factual",
+    "documento_fonte": "produtos"
+  },
+  {
+    "pergunta": "Qual a comissão do programa de parceiros?",
+    "resposta": "O programa de parceiros oferece comissão de 15% sobre o valor do contrato do cliente indicado.",
+    "tipo": "factual",
+    "documento_fonte": "produtos"
+  },
+  {
+    "pergunta": "O plano Starter inclui suporte para quantos usuários?",
+    "resposta": "O plano Starter inclui suporte para até 20 usuários.",
+    "tipo": "factual",
+    "documento_fonte": "produtos"
+  },
+  {
+    "pergunta": "Quais integrações de nuvem a DataFlow oferece?",
+    "resposta": "A DataFlow oferece integrações com Google Cloud Platform (parceiro Premier), Microsoft Azure e Amazon AWS.",
+    "tipo": "factual",
+    "documento_fonte": "produtos"
+  },
+  {
+    "pergunta": "Qual o prazo mínimo de contrato da DataFlow?",
+    "resposta": "O prazo mínimo de contrato é de 3 meses. O cancelamento deve ser solicitado com 30 dias de antecedência.",
+    "tipo": "factual",
+    "documento_fonte": "produtos"
+  },
+  {
+    "pergunta": "Qual o horário de trabalho padrão na DataFlow?",
+    "resposta": "A jornada padrão é de 40 horas semanais, segunda a sexta, das 9h às 18h com 1 hora de almoço. Há flexibilidade para entrada entre 7h e 10h.",
+    "tipo": "factual",
+    "documento_fonte": "politicas_rh"
+  },
+  {
+    "pergunta": "Como funciona o modelo de trabalho híbrido?",
+    "resposta": "O modelo padrão é 3 dias presenciais (terça, quarta e quinta) e 2 dias remotos (segunda e sexta). Exceções para 100% remoto podem ser aprovadas pelo gestor.",
+    "tipo": "procedural",
+    "documento_fonte": "politicas_rh"
+  },
+  {
+    "pergunta": "Qual o valor do vale refeição?",
+    "resposta": "O vale refeição é de R$42,00 por dia útil, no cartão Alelo.",
+    "tipo": "factual",
+    "documento_fonte": "politicas_rh"
+  },
+  {
+    "pergunta": "É possível dividir as férias em quantos períodos?",
+    "resposta": "As férias podem ser divididas em até 3 períodos, com mínimo de 14 dias no primeiro período e 5 dias nos demais.",
+    "tipo": "factual",
+    "documento_fonte": "politicas_rh"
+  },
+  {
+    "pergunta": "Qual o bônus por indicação de candidato?",
+    "resposta": "O bônus por indicação é de R$3.000, pago após o candidato completar 3 meses de empresa.",
+    "tipo": "factual",
+    "documento_fonte": "politicas_rh"
+  },
+  {
+    "pergunta": "Quem é o DPO da DataFlow Analytics?",
+    "resposta": "A DPO (Data Protection Officer) da DataFlow é Maria Fernanda Costa, contatável pelo email dpo@dataflow.com.br.",
+    "tipo": "factual",
+    "documento_fonte": "politicas_rh"
+  },
+  {
+    "pergunta": "Como funciona a avaliação de desempenho?",
+    "resposta": "A avaliação é semestral (junho e dezembro), usando OKRs e feedback 360°. Inclui auto-avaliação, avaliação do gestor e feedback de pelo menos 3 pares. Notas vão de 1 a 5.",
+    "tipo": "procedural",
+    "documento_fonte": "politicas_rh"
+  },
+  {
+    "pergunta": "Qual o budget anual de treinamento por colaborador?",
+    "resposta": "O budget anual de treinamento é de R$6.000 por colaborador, e a empresa disponibiliza acesso a Udemy Business, Coursera e Alura.",
+    "tipo": "factual",
+    "documento_fonte": "politicas_rh"
+  },
+  {
+    "pergunta": "Em quais meses não é permitido tirar férias?",
+    "resposta": "Não é permitido tirar férias nos meses de novembro e dezembro, que são o período de maior demanda.",
+    "tipo": "factual",
+    "documento_fonte": "politicas_rh"
+  },
+  {
+    "pergunta": "Qual o valor do auxílio home office?",
+    "resposta": "Colaboradores 100% remotos recebem auxílio home office de R$200/mês, além de reembolso de até R$150/mês para internet residencial.",
+    "tipo": "factual",
+    "documento_fonte": "politicas_rh"
+  },
+  {
+    "pergunta": "Quais etapas compõem o processo seletivo?",
+    "resposta": "O processo seletivo tem 6 etapas: triagem de currículo, teste técnico online, entrevista técnica com o time, entrevista com gestão, proposta e negociação, e onboarding na primeira semana. O processo completo leva em média 25 dias úteis.",
+    "tipo": "procedural",
+    "documento_fonte": "politicas_rh"
+  },
+  {
+    "pergunta": "O que acontece quando um colaborador tira nota 1 por dois ciclos consecutivos?",
+    "resposta": "Colaboradores com nota 1 por 2 ciclos consecutivos de avaliação entram em PIP (Performance Improvement Plan), que tem duração de 90 dias com acompanhamento semanal.",
+    "tipo": "factual",
+    "documento_fonte": "politicas_rh"
+  },
+  {
+    "pergunta": "Como faço para autenticar na API da DataFlow?",
+    "resposta": "A autenticação é feita via API Key com Bearer Token. Inclua o header 'Authorization: Bearer {api_key}' em todas as requisições. A chave tem formato df_key_ seguido de 32 caracteres alfanuméricos.",
+    "tipo": "procedural",
+    "documento_fonte": "documentacao_api"
+  },
+  {
+    "pergunta": "O que significa o erro ERR_RATE_LIMIT_EXCEEDED?",
+    "resposta": "O erro ERR_RATE_LIMIT_EXCEEDED (HTTP 429) indica que o rate limit foi excedido. O header Retry-After indica quantos segundos aguardar antes de tentar novamente.",
+    "tipo": "factual",
+    "documento_fonte": "documentacao_api"
+  },
+  {
+    "pergunta": "Qual o rate limit do plano Starter na API?",
+    "resposta": "O plano Starter permite 100 requisições por minuto, 5.000 por hora e 50.000 por dia, com máximo de 5 conexões simultâneas.",
+    "tipo": "factual",
+    "documento_fonte": "documentacao_api"
+  },
+  {
+    "pergunta": "Quais formatos de exportação de relatórios são suportados?",
+    "resposta": "Os relatórios podem ser exportados em PDF, CSV, XLSX e JSON via endpoint GET /insights/reports/{report_id}/export.",
+    "tipo": "factual",
+    "documento_fonte": "documentacao_api"
+  },
+  {
+    "pergunta": "Como configurar um webhook na API da DataFlow?",
+    "resposta": "Use POST /webhooks com body contendo a URL (HTTPS obrigatório), os eventos desejados e um secret para assinatura HMAC-SHA256. Os payloads são assinados no header X-DataFlow-Signature.",
+    "tipo": "procedural",
+    "documento_fonte": "documentacao_api"
+  },
+  {
+    "pergunta": "Quantos conectores nativos o DataFlow Pipeline oferece?",
+    "resposta": "O DataFlow Pipeline oferece 47 conectores nativos na versão 2.5, incluindo PostgreSQL, MySQL, MongoDB, BigQuery, Redshift, S3, Salesforce, entre outros.",
+    "tipo": "factual",
+    "documento_fonte": "documentacao_api"
+  },
+  {
+    "pergunta": "Qual o timeout máximo para queries no Insights?",
+    "resposta": "O timeout máximo para queries no Insights é de 300 segundos. Se excedido, retorna o erro ERR_QUERY_TIMEOUT.",
+    "tipo": "factual",
+    "documento_fonte": "documentacao_api"
+  },
+  {
+    "pergunta": "Qual SDK da DataFlow usar em Python?",
+    "resposta": "O SDK Python é instalado via 'pip install dataflow-sdk' (versão 3.2.0), compatível com Python 3.9+.",
+    "tipo": "factual",
+    "documento_fonte": "documentacao_api"
+  },
+  {
+    "pergunta": "Qual a política de retry de webhooks?",
+    "resposta": "Os webhooks fazem 3 tentativas com backoff exponencial (1min, 5min, 30min). Após 3 falhas, o webhook é desativado automaticamente e uma notificação é enviada ao admin.",
+    "tipo": "factual",
+    "documento_fonte": "documentacao_api"
+  },
+  {
+    "pergunta": "A DataFlow oferece suporte 24/7?",
+    "resposta": "Suporte 24/7 por telefone dedicado (0800-555-7890) está disponível apenas para o plano Enterprise. O plano Starter tem chat técnico de segunda a sexta, 9h-18h.",
+    "tipo": "comparativo",
+    "documento_fonte": "documentacao_api"
+  },
+  {
+    "pergunta": "Compare o rate limit dos planos Professional e Enterprise.",
+    "resposta": "O Professional permite 500 req/min, 25.000/hora e 250.000/dia com 20 conexões simultâneas. O Enterprise permite 2.000 req/min, 100.000/hora e 1.000.000/dia com 100 conexões simultâneas e rate limits customizáveis.",
+    "tipo": "comparativo",
+    "documento_fonte": "documentacao_api"
+  },
+  {
+    "pergunta": "Qual o SLA de resolução para incidentes SEV-1 no plano Enterprise?",
+    "resposta": "Para incidentes SEV-1 (Crítico - API totalmente indisponível), o SLA de resolução no plano Enterprise é de 1 hora.",
+    "tipo": "factual",
+    "documento_fonte": "documentacao_api"
+  },
+  {
+    "pergunta": "Um colaborador PJ tem direito a vale refeição?",
+    "resposta": "Não. Colaboradores PJ não recebem vale refeição. Os benefícios para PJ se limitam a Gympass (plano Silver), Day Off Aniversário e desconto de 30% em certificações DataFlow Partner.",
+    "tipo": "comparativo",
+    "documento_fonte": "politicas_rh"
+  },
+  {
+    "pergunta": "Qual a diferença entre os benefícios CLT e PJ?",
+    "resposta": "CLT recebe: VR (R$42/dia), VA (R$600/mês), plano de saúde Bradesco sem coparticipação, odontológico, seguro de vida, Gympass Gold, auxílio creche, day off aniversário, PLR e auxílio educação. PJ recebe apenas: Gympass Silver, day off aniversário e 30% de desconto em certificações.",
+    "tipo": "comparativo",
+    "documento_fonte": "politicas_rh"
+  },
+  {
+    "pergunta": "É possível usar coworking pela empresa?",
+    "resposta": "Sim, colaboradores remotos podem usar coworkings parceiros (WeWork, Regus) com limite de R$500/mês, mediante aprovação prévia do gestor.",
+    "tipo": "factual",
+    "documento_fonte": "politicas_rh"
+  },
+  {
+    "pergunta": "O que acontece se eu fizer uma requisição HTTP em vez de HTTPS?",
+    "resposta": "A API retorna o erro ERR_SSL_REQUIRED. Todas as requisições devem obrigatoriamente usar HTTPS.",
+    "tipo": "factual",
+    "documento_fonte": "documentacao_api"
+  },
+  {
+    "pergunta": "Qual o limite de upload de dados no plano Professional?",
+    "resposta": "No plano Professional, o limite por upload é de 50GB. Importações acima de 1GB são processadas via job assíncrono.",
+    "tipo": "factual",
+    "documento_fonte": "documentacao_api"
+  },
+  {
+    "pergunta": "A DataFlow Analytics faz consultoria de implantação?",
+    "resposta": "Não há menção a serviços de consultoria de implantação na documentação disponível.",
+    "tipo": "negativo",
+    "documento_fonte": "nenhum"
+  },
+  {
+    "pergunta": "A DataFlow oferece produto de CRM?",
+    "resposta": "Não, a DataFlow não oferece produto de CRM. Seus produtos são focados em análise de dados: Insights BI, Pipeline ETL e Warehouse.",
+    "tipo": "negativo",
+    "documento_fonte": "nenhum"
+  },
+  {
+    "pergunta": "A empresa tem escritório em São Paulo?",
+    "resposta": "Segundo a documentação, a DataFlow Analytics foi fundada em Campinas-SP. Não há menção a escritórios em outras cidades.",
+    "tipo": "negativo",
+    "documento_fonte": "produtos"
+  },
+  {
+    "pergunta": "Em quanto tempo um incidente de segurança deve ser reportado?",
+    "resposta": "Incidentes de segurança devem ser reportados em até 2 horas ao time de segurança pelo email security@dataflow.com.br.",
+    "tipo": "factual",
+    "documento_fonte": "politicas_rh"
+  },
+  {
+    "pergunta": "Quais templates de dashboard estão disponíveis na API?",
+    "resposta": "Os templates disponíveis são: TPL-SALES-001 (vendas), TPL-MARKETING-002 (marketing), TPL-FINANCE-003 (financeiro) e TPL-HR-004 (RH).",
+    "tipo": "factual",
+    "documento_fonte": "documentacao_api"
+  },
+  {
+    "pergunta": "Como funciona o programa de mentoria da empresa?",
+    "resposta": "A DataFlow tem um programa de mentoria para juniores com duração de 6 meses. Além disso, há hackathons internos trimestrais com premiação de até R$5.000 e Tech Talks semanais toda sexta-feira das 16h às 17h.",
+    "tipo": "factual",
+    "documento_fonte": "politicas_rh"
+  },
+  {
+    "pergunta": "Qual a versão atual da API e quando os endpoints v1 serão depreciados?",
+    "resposta": "A versão atual é v2.5 (Janeiro 2026). Os endpoints GET /v1/* estão depreciados e devem ser migrados para v2 até julho de 2026.",
+    "tipo": "factual",
+    "documento_fonte": "documentacao_api"
+  },
+  {
+    "pergunta": "Se meu job ETL falhar, quantas vezes ele é automaticamente reexecutado?",
+    "resposta": "Jobs ETL que falham têm limite de 3 retentativas automáticas por execução. Também é possível reexecutar manualmente via POST /pipeline/jobs/{job_id}/runs/{run_id}/retry.",
+    "tipo": "factual",
+    "documento_fonte": "documentacao_api"
+  },
+  {
+    "pergunta": "Quais são os benefícios de saúde oferecidos pela empresa?",
+    "resposta": "Para CLT: Plano de Saúde Bradesco Saúde Top Nacional sem coparticipação (titular + dependentes), Plano Odontológico Bradesco Dental sem coparticipação, Seguro de Vida com cobertura de 24x o salário base e Gympass Gold.",
+    "tipo": "factual",
+    "documento_fonte": "politicas_rh"
+  },
+  {
+    "pergunta": "Qual o canal de denúncias da empresa?",
+    "resposta": "O canal de denúncias pode ser acessado por: email etica@dataflow.com.br, telefone 0800-123-4567 (anônimo) ou site compliance.dataflow.com.br. Todas as denúncias são investigadas em até 30 dias.",
+    "tipo": "factual",
+    "documento_fonte": "politicas_rh"
+  }
+]
