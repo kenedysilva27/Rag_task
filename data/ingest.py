@@ -29,3 +29,13 @@ class Ingest():
         return self.docs
 
 
+if __name__ == "__main__":
+    ingest = Ingest()
+    docs = ingest.load_rag_sources("./base_conhecimento")
+    print(f"Total de páginas: {len(docs)}")
+    for doc in docs[:3]:
+        print(doc.metadata)
+        print(doc.page_content[:120])
+        print()
+
+

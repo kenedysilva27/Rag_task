@@ -60,3 +60,12 @@ class embedding_vectordb_safe():
             )
 
         return vector_store
+
+
+if __name__ == "__main__":
+    vectordb = embedding_vectordb_safe()
+    sources = vectordb.load_sources()
+    chunks = vectordb.spliterdocuments()
+    embeddings_chunks = vectordb.embedding_sources()
+    vector_db = vectordb.vectordbload()
+    print(f"Documentos indexados: {vector_db._collection.count()}")
